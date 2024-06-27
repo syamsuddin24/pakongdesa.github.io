@@ -1,0 +1,170 @@
+/* Custom Styles */
+
+/* Body and Main Container */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+.navbar-text {
+    position: relative;
+    top: 12px;
+}
+.navbar-text .brand-name {
+    /* top: 50px; */
+    font-size: 20px;
+}
+.navbar-text .kecamatan {
+    font-size: 0.50em;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* Carousel Image Height */
+.carousel-item img {
+    height: 400px;
+    object-fit: cover;
+}
+
+/* Card Styles */
+.card {
+    margin-bottom: 20px;
+}
+
+.card-title {
+    font-size: 1.2rem;
+}
+
+.card-text {
+    min-height: 80px; /* Ensure consistent height for card bodies */
+}
+
+/* List Group Styles */
+.list-group-item {
+    margin-bottom: 10px;
+}
+
+/* Button Styles */
+.btn-outline-primary {
+    border-color: #007bff;
+    color: #007bff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #f8f9fa;
+    color: #333;
+}
+
+
+.navbar-brand .navbar-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.navbar-brand .navbar-text .brand-name {
+    color: #000; /* Set to black */
+    font-weight: bold; /* Make it bold */
+}
+
+.navbar-brand .navbar-text small {
+    display: block;
+    font-size: 75%;
+    color: gray;
+}
+.navbar-toggler {
+    margin-left: auto;
+    margin-top: -05px;
+}
+
+.social-media-links a {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.social-media-links i {
+    margin-right: 5px;
+}
+
+/* CSS untuk animasi */
+.animate {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+.animate.animate-on-scroll {
+    opacity: 1;
+    transform: translateY(0);
+}
+/* .navbar-nav ml-auto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+} */
+.col-md-4:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.list-group-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+}
+
+.judul {
+    margin-bottom: 50px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+/* 
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+    bottom: 0;
+}
+
+
+.navbar-brand .navbar-text {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 10px;
+}
+
+.navbar-brand .navbar-text .brand-name {
+    color: #000;
+    font-weight: bold;
+}
+
+.navbar-brand .navbar-text small {
+    display: block;
+    font-size: 75%;
+    color: gray;
+}
+
+.social-media-links a {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.social-media-links i {
+    margin-right: 5px;
+}
+ */
